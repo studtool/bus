@@ -1,0 +1,25 @@
+{
+  "name": "bus",
+  "version": "0.0.0",
+  "description": "Simple event bus with powerfull debugging tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studtool/bus.git"
+  },
+  "keywords": [
+    "bus",
+    "event",
+    "observer",
+    "pattern observer"
+  ],
+  "author": "https://github.com/nikitarub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studtool/bus/issues"
+  },
+  "homepage": "https://github.com/studtool/bus#readme"
+}
