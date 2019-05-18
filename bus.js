@@ -83,11 +83,11 @@ function _encode(from, event) {
 */
 const _createMeta = ({from, link, event, callback, data} = {}) => {
     return {
-        'from': from.name == '' ? undefined : from.name,
-        'link': link,
-        'event': event,
+        'from': from.name ? from.name : undefined,
+        'link': link ? link : undefined,
+        'event': event ? event : undefined,
         'callback': callback ? callback.name : undefined,
-        'data': data
+        'data': data ? data : undefined
     };
 }
 
